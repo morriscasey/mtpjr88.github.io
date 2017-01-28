@@ -142,25 +142,7 @@
   margin: 0px;
   padding: 0px;
 }
-/*.hovereffect .overlay:before {      /* Hover Triangle 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 28%;
-  height: 55%;
-  border: 2px solid #fff;
-  content: '';
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.50s, -webkit-transform 0.50s;
-  transition: opacity 0.50s, transform 0.50s;
-  -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-  transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-  -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-  transform-origin: 50%;
-}
-*/
+
 .hovereffect p {      /* Media Icons */
   width: 50%;
   text-transform: none;
