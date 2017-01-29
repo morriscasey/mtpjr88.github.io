@@ -7,91 +7,59 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/fontAwesome.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
-
-
-
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js">
 </head>
 <body>
-    <div id="container-fluid">
-
-
-<div class="background">
-  
-<div id="topbar">
-<div class="clearfix">
-<ul class= "nav nav-pills">
-   
-    <li class="pull-right">
-     <a href="#">Contact Me</a>
-   </li>
-   <li class="pull-right">
-       <a href="#"><strong>Blog</strong></a>
-   </li>
-          
-   <li class="pull-right">
-       <a href="#"><strong>Portfolio</strong></a>
-   </li>
-  
-   <li class="pull-right">
-     <a href="#">About Me</a>
-   </li>
-   <li>
-     <span id="myName"><h2><strong></strong></h2></span>
-   </li>
-  </ul>
-
-  </div>
-  </div>
-
- 
-<div class="block text-center">
-
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/guitar.jpg"  alt="">
-            <div class="overlay">
-            <div class="row">
-            <div class="col-md-12">
-            <h1 id="Hello">Hello,World.</h1>
-            <h1 id="Iam"> I am Michael Pimentel Jr.</h1>
-            </div>
-            </div>
-
-                 <h2> Web Developer</h2>
-
-                
-                <p>
-                    <a href="https://twitter.com/Mtpjr88">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="https://www.facebook.com/michael.pimentel.96">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/michael-pimentel-65b494123">
-                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://github.com/mtpjr88">
-                        <i class="fa fa-github-square" aria-hidden="true"></i>
-                    </a>
-                    </p>
-              </div>
-           </div>
-  </div>
-
-          
-
+  <nav class="navbar">
+    <div id="topbar" class="container-fluid">
+      <ul class="nav navbar-nav navbar-right nav-pills">
+        <li><a href="#"><strong>Contact Me</strong></a></li>
+        <li><a href="#"><strong>Blog</strong></a></li>
+        <li><a href="#"><strong>Portfolio</strong></a></li>
+        <li><a href="#"><strong>About Me</strong></a></li>
+      </ul>
     </div>
-   </div>
-           
-  </div>
-       
-    
-</div>
+  </nav>
+  <div class="overlay hovereffect container-fluid">
+    <!-- Row contains your floating grid. I broke hello world div into it's
+    own row so that the other div Web Developer doesn't colide into hello world
+    when smaller. -->
+    <div class="row">
+        <!-- Grid based on 12 cols so col-md-4 means medium size screens this div is a
+        third of the screen.
+
+        The col-size-value inherits from small to big. So col-sm-12 covers
+        the whole width. Where col-md-4 starts a third of the way when width is ≥992px -->
+        <div id="name" class="col-sm-12 col-md-4">
+          <h1 id="Hello">Hello,World.</h1>
+          <h1 id="Iam"> I am Michael Pimentel Jr.</h1>
+        </div>
+    </div> <!-- End Row -->
+
+    <div class="row">
+      <div id="middle" class="col-xs-12">
+       <h2> Web Developer</h2>
+       <p>
+           <a href="https://twitter.com/Mtpjr88">
+               <i class="fa fa-twitter"></i>
+           </a>
+           <a href="https://www.facebook.com/michael.pimentel.96">
+               <i class="fa fa-facebook"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/michael-pimentel-65b494123">
+               <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+           </a>
+           <a href="https://github.com/mtpjr88">
+               <i class="fa fa-github-square" aria-hidden="true"></i>
+           </a>
+        </p>
+      </div>
+    </div> <!-- End Row -->
+  </div> <!-- End Div Overlay Hovereffect etc.. -->
 </body>
 </html>
